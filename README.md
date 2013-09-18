@@ -25,9 +25,9 @@ Install:
 Init:
 
     var StackMob;
-    StackMob = require("stackmob-nodejs"); // Note: npm name is still TBD. Currently this is the top level folder name if you copy this into node_modules
+    require("stackmob-nodejs"); // Note: npm name is still TBD. Currently this is the top level folder name if you copy this into node_modules
     StackMob.init({
-      //urlRoot: "http://api.mob1.stackmob.com/", // Note: I believe "urlRoot" was deprecated in StackMob 0.9.2
+      urlRoot: "http://api.mob1.stackmob.com/", // Note: I believe "urlRoot" was deprecated in StackMob 0.9.2
       consumerKey: "publicKey",
       consumerSecret: "privateKey",
       appName: "appName",
