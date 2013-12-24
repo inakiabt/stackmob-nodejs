@@ -2,17 +2,18 @@
   "name": "stackmob-nodejs",
   "description": "Stackmob JS SDK for NodeJS",
   "version": "0.9.2",
-  "author": "Chris Tan <chrismtan@gmail.com>",
+  "author": "Iñaki Abete <inakiabt@gmail.com>",
   "engines": { "node": "*" },
   "main": "./main.js",
   "dependencies": {
     "backbone": "*",
     "lodash": "*",
     "xmlhttprequest": "*",
-    "localStorage": "*"
+    "localStorage": "*",
+    "jquery": "*",
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Wisdom/stackmob-nodejs.git"
+    "url": "git://github.com/inakiabt/stackmob-nodejs.git"
   }
 }
