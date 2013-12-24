@@ -10,7 +10,7 @@
     "lodash": "*",
     "xmlhttprequest": "*",
     "localStorage": "*",
-    "jquery": "*",
+    "jquery": "*"
   },
   "repository": {
     "type": "git",
